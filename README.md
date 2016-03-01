@@ -16,10 +16,11 @@ For example:
 
 
 ```
-{"image":"docker:///ldejager/bintray-resource","type":"bintray-resource"}
+{"type":"bintray-resource","image":"docker:///ldejager/bintray-resource"}
 ```
 
 Restart the monit process to register the `bintray-resource` resource type:
 
+```
 monit restart beacon
-
+```
